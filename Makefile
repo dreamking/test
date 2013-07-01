@@ -2,8 +2,8 @@ main: test.c
         g++ -o test test.c
 
 clean:
-        rm test
+	rm test
 
 test:
-        ./main
-        ./main 2
+	./main
+	./main 2
